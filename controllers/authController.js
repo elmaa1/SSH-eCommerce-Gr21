@@ -21,7 +21,7 @@ export const registerController = async (req, res) => {
         if (!address) {
             return res.send({ error: 'Address is required!' });
         }
-
+//ne postman http://localhost:8081/api/v1/auth/register/
         //check user
         const existingUser = await userModel.findOne({ email })
         //existing user
@@ -58,7 +58,7 @@ export const registerController = async (req, res) => {
         })
     }
 };
-
+//ne postman http://localhost:8081/api/v1/auth/login/
 //POST LOGIN
 export const loginController=async(req,res)=>{
     try{
@@ -111,3 +111,9 @@ res.status(200).send({
         })
     }
 };
+
+//test Controller
+export const testController=(req,res)=>{
+    res.send("Protected Routes");
+}
+
