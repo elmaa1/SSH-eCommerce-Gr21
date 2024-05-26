@@ -74,33 +74,4 @@ After testing requests in Postman, follow these steps to send data to MongoDB Co
 
 This process ensures that the data sent from Postman is accurately stored and managed in your MongoDB database. 
 
-## Project Structure
-
-The project's structure is organized as follows:
-
-ecommerce-app/
-├── client/              # Frontend application
-│   ├── public/          # Public assets
-│   ├── src/
-│   │   ├── components/  # React components
-│   │   ├── pages/       # Application pages
-│   │   ├── redux/       # Redux state management
-│   │   ├── styles/      # CSS styles
-│   │   ├── utils/       # Utility functions
-│   │   ├── App.js       # Main application component
-│   │   └── index.js     # Entry point of the application
-│   ├── .gitignore       # Git ignore file
-│   ├── package.json     # npm package configuration
-│   └── README.md        # Project README file
-├── server/              # Backend application
-│   ├── controllers/     # Route controllers
-│   ├── models/          # Mongoose models
-│   ├── routes/          # Express routes
-│   ├── .gitignore       # Git ignore file
-│   ├── package.json     # npm package configuration
-│   ├── server.js        # Entry point of the server
-│   └── README.md        # Project README file
-├── .gitignore           # Git ignore file
-├── README.md            # Project README file
-└── ...                  # Other configuration files
 
