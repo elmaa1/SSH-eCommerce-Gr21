@@ -111,9 +111,9 @@ res.status(200).send({
         })
     }
 };
-
-//test Controller
+//test  controller
 export const testController=(req,res)=>{
     res.send("Protected Routes");
 }
+
 
